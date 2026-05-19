@@ -11,14 +11,14 @@ int main() {
 
     for (int i = 1; i <= 5; i++) 
     {
-        printf("%s - %d casas para a direita\n", peca1, i);
+        printf("%d - %s - Mover uma casa para a direita\n", i, peca1);
     }
 
     int i = 1;    
    
     while (i <= 5)  
         {
-        printf("%s - %d casas na diagonal para cima e a direita\n", peca2, i); 
+        printf("%d - %s - Mover uma casa na diagonal para cima e a direita\n", i, peca2); 
         i++;    
     }
 
@@ -26,7 +26,7 @@ int main() {
    
     do {                    
         
-        printf("%s - %d casas para a esquerda\n", peca3, i);  
+        printf("%d - %s - Mover uma casa para a esquerda\n", i, peca3);  
         i++;                
         
     } while (i <= 8);       
